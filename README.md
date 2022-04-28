@@ -5,7 +5,7 @@ This application is SPA. The user can enter a number and see what are the facts 
 
 ## Installation App
 
-Install bannersapp with npm
+Install with npm
 
 ```bash
   npm install
