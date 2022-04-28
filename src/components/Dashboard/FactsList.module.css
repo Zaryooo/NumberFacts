@@ -1,0 +1,71 @@
+
+.fact {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(0, 212, 212);
+}
+
+.fact .numbers {
+    margin: 10px 5px 15px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    background-color: rgb(0, 212, 212);
+}
+
+.fact .numbers span {
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+.fact .numbers p {
+    margin: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.fact .numbers p:first-child {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;;
+    padding-bottom: 10px;
+}
+
+.fact .info {
+    padding: 15px 20px;
+    width: 90%
+}
+
+.fact .info span {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.fact .info p {
+    margin: 10px 0;
+    color: #333;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.fact .dates span {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 800px) {
+    .fact {
+        flex-wrap: nowrap;
+    }
+    .fact .numbers {
+        width: 10%;
+    }
+}

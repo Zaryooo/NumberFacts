@@ -1,0 +1,27 @@
+.container {
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.clr-button {
+    display: block;
+    cursor: pointer;
+    margin: 44px auto 20px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    height: 41px;
+    width: 220px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: rgb(0, 212, 212);
+  }
+  
+  .clr-button:hover,
+  .clr-button:focus-visible {
+      background-color: rgb(0, 189, 173);
+  }
